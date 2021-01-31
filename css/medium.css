@@ -1,0 +1,68 @@
+/* (min-width: 768px) */
+
+/*NAWIGACJA*/
+
+.nav-mobile {
+    display: none;
+}
+
+.nav-desktop {
+    display: block;
+    text-align: center;
+    overflow: hidden;
+}
+
+.nav-desktop li {
+    display: inline-block;
+}
+
+.nav-desktop li a {
+    padding: 30px;
+    color: #333;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: color .3s
+}
+
+.nav-desktop li a:hover {
+    color: rgb(0, 153, 255);
+}
+
+/*HEADER*/
+
+.header-text h1 {
+    margin-bottom: 20px;
+    font-size: 42px;
+}
+
+.header-text p {
+    font-size: 24px;
+}
+
+/* MAIN */
+
+.about-box-text {
+    width: 300px;
+}
+
+.about-box-text h3 {
+    font-size: 24px;
+}
+
+.about-box-text p {
+    font-size: 16px;
+}
+
+.about-box-text i {
+    margin-top: 5px;
+    font-size: 24px;
+}
+
+/*MEDIA-QUERIES*/
+
+@media (min-width: 929px) {
+    .fix-box-large p {
+        margin: 15px 0;
+    }
+}

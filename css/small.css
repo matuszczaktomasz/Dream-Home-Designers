@@ -1,0 +1,36 @@
+/* (min-width: 576px) */
+
+/*HEADER*/
+
+header-img {
+    background-image: url('../img/living-room-690174_1280.jpg');
+}
+
+/*MAIN*/
+
+.about-box-text {
+    display: inline-block;
+    margin: 30px auto;
+}
+
+.first-project {
+    background-image: url('../img/ekologia_640.jpg');
+}
+
+.second-project {
+    background-image: url('../img/bezpieczne_640.jpg');
+}
+
+.third-project {
+    background-image: url('../img/nowoczesne_640.jpg');
+}
+
+.fourth-project {
+    background-image: url('../img/praktyczne_640.jpg');
+}
+
+/*FOOTER*/
+
+footer {
+    font-size: 16px;
+}
